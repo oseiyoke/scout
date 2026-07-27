@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /scout-app
+    schedule: { interval: weekly }
+    groups:
+      javascript-dependencies: { patterns: ["*"] }
+  - package-ecosystem: cargo
+    directory: /scout-app/src-tauri
+    schedule: { interval: weekly }
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: monthly }

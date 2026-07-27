@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-set-tray-error"
+description = "Enables the set_tray_error command without any pre-configured scope."
+commands.allow = ["set_tray_error"]
+
+[[permission]]
+identifier = "deny-set-tray-error"
+description = "Denies the set_tray_error command without any pre-configured scope."
+commands.deny = ["set_tray_error"]

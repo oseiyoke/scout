@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "panel-read-only",
+  "description": "Minimal permissions for the menu-bar review panel",
+  "windows": ["panel"],
+  "permissions": [
+    "core:default",
+    "sql:default",
+    "allow-show-main-window"
+  ]
+}

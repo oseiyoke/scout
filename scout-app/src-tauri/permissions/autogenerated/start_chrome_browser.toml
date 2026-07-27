@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-start-chrome-browser"
+description = "Enables the start_chrome_browser command without any pre-configured scope."
+commands.allow = ["start_chrome_browser"]
+
+[[permission]]
+identifier = "deny-start-chrome-browser"
+description = "Denies the start_chrome_browser command without any pre-configured scope."
+commands.deny = ["start_chrome_browser"]

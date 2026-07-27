@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-start-oauth-callback"
+description = "Enables the start_oauth_callback command without any pre-configured scope."
+commands.allow = ["start_oauth_callback"]
+
+[[permission]]
+identifier = "deny-start-oauth-callback"
+description = "Denies the start_oauth_callback command without any pre-configured scope."
+commands.deny = ["start_oauth_callback"]

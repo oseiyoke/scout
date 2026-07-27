@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible Scout problem
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: Problem, description: "What happened and what did you expect?" }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: Scout version }
+  - type: input
+    id: os
+    attributes: { label: Operating system }
+  - type: textarea
+    id: steps
+    attributes: { label: Reproduction steps }
+    validations: { required: true }
+  - type: markdown
+    attributes: { value: "Do not include credentials, private workspace content, or unredacted diagnostic exports." }
