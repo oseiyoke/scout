@@ -151,7 +151,7 @@ export function ActionPlan({ plan }: { plan: string }) {
     <details className="evidence-detail" open>
       <summary>Exact actions requiring approval</summary>
       {calls.map((call, index) => (
-        <div key={`${call.connector_id}:${call.tool}:${index}`}>
+        <div className="approval-plan-step" key={`${call.connector_id}:${call.tool}:${index}`}>
           <code>{call.connector_id} :: {call.tool}</code>
           <pre>{JSON.stringify(call.args, null, 2)}</pre>
         </div>

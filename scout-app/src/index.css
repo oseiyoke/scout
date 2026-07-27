@@ -764,6 +764,10 @@ button:disabled { cursor: not-allowed; }
 .provider-logo-large.provider-logo-wide svg { width: 34px; height: 20px; }
 .provider-logo-fallback { background: #eef2f7; color: #59667a; font-size: 12px; font-weight: 750; letter-spacing: -.03em; }
 .dark .provider-logo { border-color: rgba(255,255,255,.11); background: #fff; }
+
+.approval-plan-step + .approval-plan-step { margin-top: .75rem; }
+.approval-plan-step code { overflow-wrap: anywhere; }
+.approval-plan-step pre { margin-top: .3rem; white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; }
 .catalog-action { display: flex; width: 100%; min-height: 32px; align-items: center; gap: 6px; margin-top: 14px; border-top: 1px solid #e7ecf2; padding-top: 11px; color: var(--brand); font-size: 13px; font-weight: 680; }
 .catalog-action-connected { color: #198362; }
 .catalog-action:disabled { opacity: .65; }
