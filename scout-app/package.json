@@ -30,10 +30,10 @@
     "@tauri-apps/plugin-window-state": "^2.4.1",
     "chrome-devtools-mcp": "1.6.0",
     "framer-motion": "^12.42.2",
-    "lucide-react": "^0.468.0",
+    "lucide-react": "^1.27.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "simple-icons": "^16.27.0",
+    "simple-icons": "^16.27.1",
     "zod": "^4.4.3",
     "zustand": "^5.0.14"
   },
@@ -43,11 +43,11 @@
     "@types/better-sqlite3": "^7.6.13",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.6.0",
+    "@vitejs/plugin-react": "^6.0.4",
     "better-sqlite3": "^13.0.1",
     "tailwindcss": "^4.3.3",
-    "typescript": "~5.8.3",
-    "vite": "^7.0.4",
+    "typescript": "~7.0.2",
+    "vite": "^8.1.5",
     "vitest": "^4.1.10"
   },
   "overrides": {
