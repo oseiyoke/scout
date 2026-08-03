@@ -18,7 +18,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "ajv": "^8.17.1",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-autostart": "^2.5.1",
@@ -29,11 +29,11 @@
     "@tauri-apps/plugin-store": "^2.4.4",
     "@tauri-apps/plugin-window-state": "^2.4.1",
     "chrome-devtools-mcp": "1.6.0",
-    "framer-motion": "^12.42.2",
-    "lucide-react": "^0.468.0",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.28.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "simple-icons": "^16.27.0",
+    "simple-icons": "^16.27.1",
     "zod": "^4.4.3",
     "zustand": "^5.0.14"
   },
@@ -41,13 +41,13 @@
     "@tailwindcss/vite": "^4.3.3",
     "@tauri-apps/cli": "^2",
     "@types/better-sqlite3": "^7.6.13",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.6.0",
-    "better-sqlite3": "^13.0.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "better-sqlite3": "^13.0.2",
     "tailwindcss": "^4.3.3",
-    "typescript": "~5.8.3",
-    "vite": "^7.0.4",
+    "typescript": "~7.0.2",
+    "vite": "^8.2.0",
     "vitest": "^4.1.10"
   },
   "overrides": {
